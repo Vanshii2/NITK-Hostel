@@ -1,0 +1,62 @@
+.card {
+    /* fix the size of the card */
+    width: 100%;
+    height: 100%;
+    display: block;
+    max-width: 320px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: #fff;
+  }
+  
+  .card:hover {
+    transform: scale(1.05) translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .imageWrapper {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .info {
+    padding: 16px;
+}
+  
+  .title {
+    margin: 0 0 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .label {
+    font-weight: 500;
+    color: #555;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111;
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #111;
+    /* make the space less between the paragraphs */
+    margin-bottom: 0.0rem;
+    margin-top: 0.0rem;
+  }
+  

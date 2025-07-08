@@ -1,0 +1,31 @@
+.dashboardContainer {
+    padding: 0;
+    margin: 0;
+    width: 85%;
+    height: 100vh;
+    background-color: var(--white);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboardContainer h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboardContainer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    text-align: left;
+}

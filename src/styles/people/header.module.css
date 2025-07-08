@@ -1,0 +1,40 @@
+.headerImage {
+	background-image: url("https://media.getmyuni.com/azure/college-images-test/national-institute-of-technology-nit-surathkal/f58519ac40924389b7abdf5f67acaefe.jpeg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 200px;
+	/* position: absolute; */
+	top: 0;
+	left: 0;
+	padding: 1rem;
+	z-index: 0;
+}
+
+/* for image height margin */
+.mainContent {
+  margin-top: 425px; 
+}
+
+.heading {
+	color: #fff;
+	font-size: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+/* h1 style for desktop */
+@media (min-width: 769px) {
+  .heading {
+    font-size: 3rem;
+  }
+}
+
+/* h1 style for mobile */
+@media (max-width: 768px) {
+  .heading{
+    font-size: 1.5rem;
+  }
+} 

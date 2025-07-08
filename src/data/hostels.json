@@ -1,0 +1,170 @@
+{
+    "HostelBlocks": [
+        {
+            "id": 1,
+            "url": "h1",
+            "image": "h1.jpg",
+            "photoSphere": "https://www.google.com/maps/embed?pb=!4v1651927475531!6m8!1m7!1sCAoSLEFGMVFpcE9ZVk5wWjR0VHFBUEd4OXRzajBUZEdRU2Jvb1BKU2U0QnB0dURf!2m2!1d13.0080048!2d74.7971374!3f98.79417445038041!4f2.6441602604952976!5f0.7820865974627469",
+            "text": "Karavali (I Block)",
+            "warden": "Dr. Palanisamy T",
+            "supervisor": "Kaushik",
+            "rooms": "76",
+            "mess": ""
+        },
+        {
+            "id": 2,
+            "url": "h2",
+            "image": "h2.jpg",
+            "photoSphere": "https://www.google.com/maps/embed?pb=!4v1651927187902!6m8!1m7!1sCAoSLEFGMVFpcFB0SkJRVXRjRkp5dVFCTlNZc1JHZklzeG1iRzhMVVh1RVpaTzBD!2m2!1d13.0072319!2d74.79706329999999!3f126!4f0!5f0.7820865974627469",
+            "text": "Aravali (II Block)",
+            "warden": "Dr. Adani Azhoni",
+            "supervisor": "Deekshith J Shetty",
+            "rooms": "79",
+            "mess": ""
+        },
+        {
+            "id": 3,
+            "url": "h3",
+            "image": "h3.jpg",
+            "photoSphere": "https://www.google.com/maps/embed?pb=!4v1651829058750!6m8!1m7!1sCAoSLEFGMVFpcE9kZkIzSnlSMnROZ2ZFNGgxUHdxQnpSWlhCLXYxMXAwZVFybkJJ!2m2!1d13.0066178!2d74.7964162!3f200.3545197316036!4f-6.509388253949737!5f0.7820865974627469",
+            "text": "Vindhya (III Block)",
+            "warden": "Dr. Mandeep Singh",
+            "supervisor": "Deekshith J Shetty",
+            "rooms": "131",
+            "mess": ""
+        },
+        {
+            "id": 4,
+            "url": "h4",
+            "image": "h4.jpg",
+            "photoSphere": "https://www.google.com/maps/embed?pb=!4v1651927363860!6m8!1m7!1sCAoSLEFGMVFpcFBLeTE3Qmk2elhjR21sZk80RHU1Q3lzUWNnWTdBemJxeHBGTGda!2m2!1d13.0061532!2d74.7955579!3f152!4f0!5f0.7820865974627469",
+            "text": "Satpura (IV Block)",
+            "warden": "Dr. Yashwant Kashyap",
+            "supervisor": "Mohammed Ismail",
+            "rooms": "132",
+            "mess": ""
+        },
+        {
+            "id": 5,
+            "url": "h5",
+            "image": "h5.jpg",
+            "photoSphere": "https://www.google.com/maps/embed?pb=!4v1651927260165!6m8!1m7!1sCAoSLEFGMVFpcE1YbXBTa3BMT1VRbDZSRmJ0VktCXzVCbE9vT1EtaldldjVzc2Yt!2m2!1d13.0055734!2d74.7946734!3f162.60998508570432!4f18.866370668150296!5f0.7820865974627469",
+            "text": "Nilgiri (V Block)",
+            "warden": "Dr. Shashi Bhushan Arya",
+            "supervisor": "Mohammed Ismail",
+            "rooms": "250",
+            "mess": ""
+        },
+        {
+          "id": 6,
+          "url": "h7",
+          "image": "h7.jpg",
+          "photoSphere": "https://www.google.com/maps/embed?pb=!4v1651927328148!6m8!1m7!1sCAoSLEFGMVFpcE96d095M2RxOEVfU282aVFrWkxNdkd6T0NfZ3QtdzU1Sy1POVBJ!2m2!1d13.007703!2d74.7965158!3f326.52880958841547!4f7.886984832999232!5f0.7820865974627469",
+          "text": "Sahydari (VII Block)",
+          "warden": "Dr. Beneesh P.B.",
+          "supervisor": "Kaushik",
+          "rooms": "157",
+          "mess": ""
+        },
+        {
+          "id": 7,
+          "url": "h8",
+          "image": "h8.jpg",
+          "photoSphere": "https://www.google.com/maps/embed?pb=!4v1651927825013!6m8!1m7!1sCAoSLEFGMVFpcE0zT1RmX3Y5bW5xWV9yNE5RS0FTUUxZcENPRWtkZDl3ekY3Und2!2m2!1d13.0074233!2d74.7942513!3f292.690961444706!4f15.084669094381184!5f0.7820865974627469",
+          "text": "Trishul (VIII Block)",
+          "warden": "Dr. Pavan G S",
+          "supervisor": "Rakesh Kumar",
+          "rooms": "160",
+          "mess": ""
+        },
+        {
+          "id": 8,
+          "url": "mt1",
+          "image": "mt1.jpg",
+          "photoSphere": "https://www.google.com/maps/embed?pb=!4v1651927710668!6m8!1m7!1sCAoSLEFGMVFpcE9pVmRqbWJYMVVTcGpfYjZpTlBtcEx6UzRpdU9XT0hERzIzNXpn!2m2!1d13.0075743!2d74.79474019999999!3f24!4f0!5f0.7820865974627469",
+          "text": "Everest (MT-I)",
+          "warden": "Dr. Gnanasekaran",
+          "supervisor": "Danajaya R Salian",
+          "rooms": "503",
+          "mess": ""
+        },
+        {
+          "id": 9,
+          "url": "mt2",
+          "image": "mt2.jpg",
+          "photoSphere": "https://www.google.com/maps/embed?pb=!4v1651927749536!6m8!1m7!1sCAoSLEFGMVFpcE5ycWhBb0lqaE1TUDZkSGh5Vjk1MEFwNHE0N1YzUXJaZjRsZkZL!2m2!1d13.0070232!2d74.79498989999999!3f110!4f0!5f0.7820865974627469",
+          "text": "Himalaya (MT-II)",
+          "warden": "Dr. Mrithunjaya Swamy K B, Dr. Kiran M",
+          "supervisor": "Vasu",
+          "rooms": "502",
+          "mess": ""
+        },
+        {
+          "id": 10,
+          "url": "mt3",
+          "image": "mt3.jpg",
+          "photoSphere": "https://www.google.com/maps/embed?pb=!4v1651927782035!6m8!1m7!1sCAoSLEFGMVFpcE1xU3dPNDdXa1MzNmlVajVaaWdXZnRDU1llOFk4OEJvdl9lMlBR!2m2!1d13.0065955!2d74.7945135!3f206!4f0!5f0.7820865974627469",
+          "text": "Kailash (MT-III)",
+          "warden": "Dr. Sandeep Kumar",
+          "supervisor": "S Keshava",
+          "rooms": "503",
+          "mess": ""
+        },
+        {
+          "id": 11,
+          "url": "pg",
+          "image": "pg.jpg",
+          "photoSphere": "https://www.google.com/maps/embed?pb=!4v1651927607518!6m8!1m7!1sCAoSLEFGMVFpcE1pY1pwZFBtcGo5VHBPR1NUMUlLN0JjdEoyeVBydjZtRWVORE1i!2m2!1d13.0086059!2d74.79819379999999!3f73.12763724359806!4f-3.662897912103219!5f0.7820865974627469",
+          "text": "Pushpagiri (PG Block)",
+          "warden": "Dr. Ranjeet Kumar Sahu",
+          "supervisor": "Ravi",
+          "rooms": "150",
+          "mess": ""
+        },
+        {
+          "url": "npg",
+          "image": "npg.jpg",
+          "text": "New PG Block",
+          "warden": "Dr. Vinoth S",
+          "supervisor": "Sushanth Bhandary",
+          "rooms": "250",
+          "mess": ""
+        },
+        {
+          "url": "gh1",
+          "image": "gh1.jpg",
+          "text": "Ganga (GH I)",
+          "warden": "Dr. Shwetha H R",
+          "supervisor": "Chandravathi, Sulochana, Lalitha V S, Shreya M, Dhanyashree",
+          "rooms": "33",
+          "mess": ""
+        },
+        {
+          "url": "gh3",
+          "image": "gh3.jpg",
+          "text": "Yamuna (GH III)",
+          "warden": "Dr. Bhawana Rudra",
+          "supervisor": "Chandravathi, Sulochana, Lalitha V S, Shreya M, Dhanyashree",
+          "rooms": "136",
+          "mess": ""
+        },
+        {
+          "url": "gh4",
+          "image": "gh4.jpg",
+          "text": "Sharavathi (GH IV)",
+          "warden": "Dr. Kalpana R",
+          "supervisor": "Chandravathi, Sulochana, Lalitha V S, Shreya M, Dhanyashree",
+          "rooms": "330",
+          "mess": ""
+        },
+        {
+          "url": "gh5",
+          "image": "gh5.jpg",
+          "text": "Nethravathi (GH V)",
+          "warden": "Dr. Kalpana G Bhat",
+          "supervisor": "Chandravathi, Sulochana, Lalitha V S, Shreya M, Dhanyashree",
+          "rooms": "251",
+          "mess": ""
+        }
+    ]
+}

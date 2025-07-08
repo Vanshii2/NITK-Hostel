@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+
+/* * {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.section {
+  background-image: url("/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 115%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 3rem 1rem 2rem 1rem;
+  overflow-y: auto;
+  margin-left: -7.5%;
+
+}
+/* ye bahar wali image ka class h bg.jpg */
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.57);
+  padding: 0.2rem 3rem 3rem 3rem;
+  border-radius: 1rem;
+  width: 85%;
+  max-width: 1600px;
+  color: white;
+  margin: 0 auto;
+  
+}
+/* ye humara pyara overlay card jike uper h */
+
+.cardsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  /* border: 2px solid #00bcd4; */
+}
+/* isne cards ko wrap kia h  */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2.5rem;
+  border-radius: 1rem;
+  border: 2px solid #ffffff55;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 94%;
+  margin: 0 auto;
+  /* border: 2px solid #00bcd4; */
+}
+/* y humara main card ka classs h */
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.typing {
+  white-space: normal;
+  border: none;
+  animation: typing 8s steps(140, end) 1s 1 normal both;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.why-title {
+  font-size: 2.2rem;
+  font-family: 'Inika', serif;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 2px black;
+  transition: color 0.3s, text-decoration 0.3s;
+  cursor: pointer;
+}
+
+.why-title:hover {
+  color: #00bcd4;
+  text-decoration: underline;
+}
+
+.title {
+  font-family: 'Pacifico', cursive;
+  font-size: 48px;
+  font-weight: 900;
+  color: #43E3DE;
+  text-align: center;
+  margin-top: 0.2rem;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px black;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter 2s steps(20, end);
+  position: relative;
+  cursor: pointer;
+  line-height: 1.2;
+  padding-bottom: 10px;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
+
+.title::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: -8px;
+  left: 50%;
+  background: linear-gradient(90deg, #43E3DE, #FF6B6B, #4ECDC4);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.title:hover::after {
+  width: 90%;
+}
+
+/* y h directors message  */
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.title:hover {
+  color: whitesmoke;  
+  cursor: pointer;
+  /* transform: translateY(-5px) scale(1.04); */
+}
+
+.staffImage {
+  width: 350px;
+  height: 500px;
+  border: 2px solid #00bcd4;
+  border-radius: 1.5rem;
+  align-self: center;
+  margin-top: 1.rem;
+  margin-bottom: 2rem;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+/* ye image ka class h , or margin top isi ka thik krna tha */
+.staffImage:hover {
+ 
+  transform: scale(1.08);
+}
+/* ye  */
+
+.description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #f0f0f0;
+  text-align: justify;
+  text-shadow: 1.5px 1.5px 4px #000, 0 0 2px #00FFDE;
+  white-space: normal;
+  border: none;
+  animation: none;
+  text-indent: 2rem;
+  font-family: 'Inika';
+  font-weight: 500;
+}
+/* ye sb about us m likha  */
+
+.description br {
+  display: block;
+  content: "";
+  margin: 1rem 0;
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 2rem;
+    min-height: 600px;
+  }
+
+  .cardContent {
+    flex: 1;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .description {
+    font-size: 1.2rem;
+  }
+  .why-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    width: 104%;
+    margin: 2rem auto 0 auto;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid transparent;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .why-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 75%;
+    height: 5px;
+    background: linear-gradient(90deg, transparent, #00bcd4, #FF6B6B, #4ECDC4);
+    animation: movingBorder 1s infinite linear,transparent;
+  }
+
+  .why-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -100%;
+    width: 75%;
+    height: 5px;
+    background: linear-gradient(90deg, transparent, #4ECDC4, #FF6B6B, #00bcd4, transparent);
+    animation: movingBorder 1s infinite linear reverse,transparent;
+  }
+}
+
+@keyframes movingBorder {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.why-description {
+  color: white;
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 1rem;
+  font-family: 'Inika', serif;
+}
+
+.why-description ul {
+  margin-top: 1rem;
+  margin-left: 1.2rem;
+  color: white;
+  text-align: justify;      
+  width: 95%;               
+  padding-left: 1.2rem;    
+}
+
+.why-description li {
+  margin-bottom: 0.5rem;
+  color: white;
+  text-align: justify;      
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); */
+
+
+.aboutUs {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    position: relative;
+    margin: 0 rem auto 2 rem auto;
+    display: block;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    -webkit-text-stroke: 2px white; /* Outline */
+    animation: colorPulse 2s infinite ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.aboutUs::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    bottom: 0;
+    left: 50%;
+    background: linear-gradient(90deg, #43E3DE, #FF6B6B, #4ECDC4);
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.aboutUs:hover {
+    color: #43E3DE;
+    -webkit-text-stroke: 2px #43E3DE; 
+    transform: translateY(-5px) scale(1.04);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.aboutUs:hover::after {
+    width: 0;
+}
+
+.about-heading {
+    /* ... */
+    margin: 1rem 0 1.5rem 0;
+    /* ... */
+}

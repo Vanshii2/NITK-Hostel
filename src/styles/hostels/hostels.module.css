@@ -1,0 +1,34 @@
+/*display hostels in a grid of columns according to screen size*/
+/*make the hostel image smaller*/
+.hostelsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    margin-bottom: 5vh; 
+    min-height: calc(100vh - 140px); /* Ensure minimum height to push footer down */
+    /* justify-content: center; */
+    align-items: center;
+    justify-items: center;
+    width: 80%;
+}
+
+/* Add styles for the title section */
+.titleSection {
+    text-align: center;
+}
+
+.heroSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.titleSection h1 {
+    margin: 0;
+    color: #333;
+    font-size: 2rem;
+}

@@ -1,0 +1,39 @@
+.sideBarContainer {
+    width: 15%;
+    height: 100vh;
+    background-color: var(--teal);
+    color: var(--white);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    width: 80%;
+    height: 3rem;
+    background-color: transparent;
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.25rem;
+}
+
+.buttonSelected {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*when hover is removed it abruptly goes back instead of easing*/
+
+.buttonUnselected:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    /* color: var(--teal); */
+    transition: all 0.25s ease-in-out;
+    font-size: 1.35rem;
+}
